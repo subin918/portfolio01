@@ -3,9 +3,262 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/common.js"></script>
+  <title>폴바셋</title>
 </head>
 <body>
-  
+  <!--헤더영역-->
+  <header id="header">
+    <h1>
+      <a href="#">
+        <img src="images/common/img_logo.png" alt="">
+      </a>
+    </h1>
+    <!--GNB영역-->
+    <nav id="nav">
+      <ul>
+        <li>
+          <a href="#">ABOUT US</a>
+          <ul class="depth2">
+            <li>
+              <a href="#">
+                Brand
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                회사소개
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                CSR
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">MENU</a>
+          <ul class="depth2">
+            <li>
+              <a href="#">
+                NEW
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                COFFEE
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                BEVERAGE
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ICE-CREAM
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                FOOD
+              </a>
+            </li>
+            <li>
+              <a href="#">
+               PRODUCT
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">STORE</a>
+          <ul class="depth2">
+            <li>
+              <a href="#">
+                매장찾기
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">WHAT’s NEW</a>
+          <ul class="depth2">
+            <li>
+              <a href="#">
+                EVENT/NEWS
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                NOTICE
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">E-SHOP</a>
+          <ul class="depth2">
+            <li>
+              <a href="#">
+                E-SHOP소개
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <ul class="util_area">
+      <li>
+        <a href="#">로그인</a>
+      </li>
+      <li>
+        <a href="#">회원가입</a>
+      </li>
+      <li>
+        <a href="#">문의하기</a>
+      </li>
+      <li>
+        <a href="#">고객센터</a>
+      </li>
+    </ul>
+  </header>
+  <main id="container">
+    <!--메인배너영역-->
+    <div class="main_visual_area swiper mySwiper">
+      <ul class="swiper-wrapper">
+        <li class="img01 swiper-slide">
+          <div class="txt_area">
+            <strong class="tit">
+              PISTACHIO<br>PLEASURE
+            </strong>
+            <p>
+              입 안에 퍼지는 깊은 풍미와<br>고소함의 향연
+            </p>
+            <a href="#">MORE VIEW</a>
+          </div>
+          <div class="visual_img">
+            <img src="images/main/img_main01.jpg" alt="">
+          </div>
+        </li>
+        <li class="img02 swiper-slide">
+          <div class="txt_area">
+            <strong class="tit">
+              Journey<br>Across Time             
+            </strong>
+            <p>
+              전통차로 만나는<br>향긋한 시간 여행
+            </p>
+            <a href="#">MORE VIEW</a>
+          </div>
+          <div class="visual_img">
+            <img src="images/main/img_main02.jpg" alt="">
+          </div>
+        </li>
+      </ul>      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <!--메뉴 스토리 영역-->
+    <section class="menu_area">
+      <h2>
+        MENU STROY
+      </h2>
+      <p>폴 바셋은 ‘품질과 타협하지 않는다’는 브랜드 원칙 아래 최고의 제품과 서비스를 선보이기 위해 노력하고 있습니다.</p>
+      <ul class="menu_list">
+        <li>
+          <a href="#">
+            <span><img src="images/main/img_product01.jpg" alt="Delightful Decaf"></span>
+            <b>Delightful Decaf</b>
+            <em>늦은 시간에도 언제나 즐겁게!</em>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span><img src="images/main/img_product02.jpg" alt="Warm up Your Autumn"></span>
+            <b>Warm up Your Autumn</b>
+            <em>설레는 가을의 따뜻한 이유</em>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span><img src="images/main/img_product03.jpg" alt="PISTACHIO PLEASURE"></span>
+            <b>PISTACHIO PLEASURE</b>
+            <em>입 안에 퍼지는 깊은 풍미와 고소함의 향연</em>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="franchise_area">
+      <h2>
+        FRANCHISE
+      </h2>
+      <strong>
+        Paul Bassett 파트너,<br>폴바셋이 함께합니다.
+      </strong>
+      <p>
+        Paul Bassett 커피전문점은 국내 고품격 커피 브랜드로서 건물의 가치 및 인지도 상승을 확신합니다.<br> 
+        저희 Paul Bassett과 파트너로  함께 하시는 데 관심이 있으신 분은<br> 
+        하단의 내용을 작성해 주시면 친절하고 상세하게 상담해 드리겠습니다.
+      </p>
+      <div class="btn_area">
+        <a href="#">
+          입점 안내 바로가기
+        </a>
+        <a href="#">
+          입점 신청서 작성
+        </a>
+      </div>
+    </section>
+  </main>  
+  <footer id="footer">      
+    <div class="footer_inner">
+      <div class="cs_call">
+        <b>고객만족센터</b>
+        <span>02.3412.0781</span>
+      </div>
+      <div class="company_info">
+        <ul class="fnb">
+          <li>
+            <a href="#">회사소개</a>
+          </li>
+          <li>
+            <a href="#">채용안내</a>
+          </li>
+          <li>
+            <a href="#">프랜차이즈</a>
+          </li>
+          <li>
+            <a href="#">계열사소개</a>
+          </li> 
+          <li>
+            <a href="#">공지사항</a>
+          </li>  
+        </ul>
+        <address>
+          <p>엠즈씨드(주) 대표이사 : 김용철 주소 : 서울특별시 강남구 도산대로 75길 22 (청담동)</p>
+          <p>사업자등록번호 211-88-95935 대표번호 1899-8829 개인정보관리책임자 : 정보문</p>
+        </address>
+        <p>© 2023 m's seed Co., Ltd. All rights reserved.</p>
+      </div>  
+      <div class="sns_area">
+        <span>Fllow us</span>     
+        <ul class="sns_area">
+          <li><a href="#"><img src="images/common/ico_sns01.png" alt="인스타그램"></a></li>
+          <li><a href="#"><img src="images/common/ico_sns02.png" alt="페이스북"></a></li>
+          <li><a href="#"><img src="images/common/ico_sns03.png" alt="유투브"></a></li>
+          <li><a href="#"><img src="images/common/ico_sns04.png" alt="블로그"></a></li>
+        </ul>
+      </div>   
+    </div>
+  </footer>  
 </body>
 </html>
